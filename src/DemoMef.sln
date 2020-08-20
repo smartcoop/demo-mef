@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMef.CLI", "DemoMef.CLI\DemoMef.CLI.csproj", "{0632AEB1-6DE6-4155-B24A-7DF1249CF58E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoMef.CLI", "DemoMef.CLI\DemoMef.CLI.csproj", "{0632AEB1-6DE6-4155-B24A-7DF1249CF58E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMef.Core", "DemoMef.Core\DemoMef.Core.csproj", "{58D1BCC3-D4AC-46EA-BE29-6CC8B93E20C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{3AF457D8-D10C-4E4C-B85B-3E28712E84DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,10 @@ Global
 		{0632AEB1-6DE6-4155-B24A-7DF1249CF58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0632AEB1-6DE6-4155-B24A-7DF1249CF58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0632AEB1-6DE6-4155-B24A-7DF1249CF58E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D1BCC3-D4AC-46EA-BE29-6CC8B93E20C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D1BCC3-D4AC-46EA-BE29-6CC8B93E20C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D1BCC3-D4AC-46EA-BE29-6CC8B93E20C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D1BCC3-D4AC-46EA-BE29-6CC8B93E20C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
