@@ -109,11 +109,7 @@ namespace DemoMef.CLI
             var catalog = new AggregateCatalog();
 
             //We are looking in a directory for any exported parts
-#if DEBUG
-            var pluginsDir = AppDomain.CurrentDomain.BaseDirectory; //In local debug mode it will make our life easier to have the plugins at the app root
-#else
-            var pluginsDir = AppDomain.CurrentDomain.BaseDirectory + "Plugins"; //In release mode we want them in the plugin folder.
-#endif
+            var pluginsDir = AppDomain.CurrentDomain.BaseDirectory; //For this demo it will make our life easier to have the plugins at the app root What we'd typically do is have a Plugins folder ad app root.
             catalog.Catalogs.Add(new DirectoryCatalog(pluginsDir, "*.dll"));
 
             //We create the CompositionContainer with the parts in the catalog.

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DemoMef.CLI": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
