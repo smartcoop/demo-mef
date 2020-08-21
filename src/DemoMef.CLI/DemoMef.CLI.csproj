@@ -13,9 +13,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DemoMef.Core\DemoMef.Core.csproj" />
-    <ProjectReference Include="..\DemoMef.Plugin.Doc\DemoMef.Plugin.Doc.csproj" />
-    <ProjectReference Include="..\DemoMef.Plugin.Pdf\DemoMef.Plugin.Pdf.csproj" />
-    <ProjectReference Include="..\DemoMef.Plugin.Rtf\DemoMef.Plugin.Rtf.csproj" />
   </ItemGroup>
 
   <ItemGroup>
