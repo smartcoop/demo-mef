@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMef.CLI", "DemoMef.CLI\DemoMef.CLI.csproj", "{0632AEB1-6DE6-4155-B24A-7DF1249CF58E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoMef.CLI", "DemoMef.CLI\DemoMef.CLI.csproj", "{0632AEB1-6DE6-4155-B24A-7DF1249CF58E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoMef.Core", "DemoMef.Core\DemoMef.Core.csproj", "{58D1BCC3-D4AC-46EA-BE29-6CC8B93E20C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{3AF457D8-D10C-4E4C-B85B-3E28712E84DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMef.Plugin.Rtf", "DemoMef.Plugin.Rtf\DemoMef.Plugin.Rtf.csproj", "{BAC320E5-9E9C-49C9-B90D-B2EB60AD91E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMef.Plugin.Doc", "DemoMef.Plugin.Doc\DemoMef.Plugin.Doc.csproj", "{5C2AA92A-3F4F-42FD-886A-1444058CD843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMef.Plugin.Pdf", "DemoMef.Plugin.Pdf\DemoMef.Plugin.Pdf.csproj", "{712F8441-3610-49A6-9C8D-D6A3342D395C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,30 @@ Global
 		{0632AEB1-6DE6-4155-B24A-7DF1249CF58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0632AEB1-6DE6-4155-B24A-7DF1249CF58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0632AEB1-6DE6-4155-B24A-7DF1249CF58E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D1BCC3-D4AC-46EA-BE29-6CC8B93E20C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D1BCC3-D4AC-46EA-BE29-6CC8B93E20C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D1BCC3-D4AC-46EA-BE29-6CC8B93E20C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D1BCC3-D4AC-46EA-BE29-6CC8B93E20C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC320E5-9E9C-49C9-B90D-B2EB60AD91E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC320E5-9E9C-49C9-B90D-B2EB60AD91E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC320E5-9E9C-49C9-B90D-B2EB60AD91E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC320E5-9E9C-49C9-B90D-B2EB60AD91E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C2AA92A-3F4F-42FD-886A-1444058CD843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C2AA92A-3F4F-42FD-886A-1444058CD843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C2AA92A-3F4F-42FD-886A-1444058CD843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C2AA92A-3F4F-42FD-886A-1444058CD843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{712F8441-3610-49A6-9C8D-D6A3342D395C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712F8441-3610-49A6-9C8D-D6A3342D395C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712F8441-3610-49A6-9C8D-D6A3342D395C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712F8441-3610-49A6-9C8D-D6A3342D395C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BAC320E5-9E9C-49C9-B90D-B2EB60AD91E2} = {3AF457D8-D10C-4E4C-B85B-3E28712E84DB}
+		{5C2AA92A-3F4F-42FD-886A-1444058CD843} = {3AF457D8-D10C-4E4C-B85B-3E28712E84DB}
+		{712F8441-3610-49A6-9C8D-D6A3342D395C} = {3AF457D8-D10C-4E4C-B85B-3E28712E84DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F429DEF6-A27A-4A60-A1E0-BD224DE591E8}
