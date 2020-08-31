@@ -1,3 +1,5 @@
+#! /usr/bin/env bash
+
 cd src
 
 docker build -t demo_mef -f DemoMef.CLI/Dockerfile .

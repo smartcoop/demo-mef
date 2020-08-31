@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
-using DemoMef.Core;
+﻿using DemoMef.Core;
 using System.ComponentModel.Composition;
+using System.Linq;
 using SautinSoft.Document;
 
 namespace DemoMef.Plugin.Doc
@@ -12,15 +12,9 @@ namespace DemoMef.Plugin.Doc
 
         public string Read(string path)
         {
-            var output = "";
-
             var dc = DocumentCore.Load(path);
-            var list = new List<string>();
-            foreach (var run in dc.GetChildElements(true, ElementType.Run))
-            {
-                output += run.Content.ToString();
-            }
-            return output;
+            var runList = dc.GetChildElements(true, ElementType.Run).Select(x => x.Content.ToString());
+            return string.Concat(runList);
         }
     }
 }

@@ -1,14 +1,14 @@
 # MEF Demo - Managed Extensibility Framework
 
 This project is meant to demonstrate [MEF](https://docs.microsoft.com/en-us/dotnet/framework/mef/)'s basic functionnalities with a simple application.
-The projet runs fully on Docker, the easiest way to launch it is to use the `start.sh` script at root.
+The projet runs fully on Docker. The easiest way to launch it is to use the `start.sh` script at the root of this directory.
 
-MEF (Managed Extensibility Framework) is a standard library for creating extensible applications. In this demo, we will show a basic file reader as example. 
+MEF (Managed Extensibility Framework) is a standard library for creating extensible applications, where additional features can be added by plugins without recompiling the original application. In this demo, we will show a basic file reader as example. 
 Since there are multiple possible formats to store text (plain, PDF, Word files, etc), this is a perfect example to demonstrate MEF's basic extensibility capabalities.
 
 The solutions contains multiple projects, two of them are important :
 * The 'CLI' executing a basic file reader
-* The 'Core' providing an interface and an example class to develop more extensions.
+* The 'Core' providing an interface and an example class to develop additional extensions.
 Aside from these two, there are currently 3 extensions to demonstrate their implementation
 
 The way this works is the CLI will provide no way to read any form of text, not a single format will be supported by the base application. 
